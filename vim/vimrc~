@@ -1,0 +1,5 @@
+syntax on
+colorscheme gruvbox
+set background=dark    " Setting dark mode
+let g:airline_theme='gruvbox'
+hi Normal guibg=NONE ctermbg=NONE
