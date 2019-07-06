@@ -186,9 +186,9 @@ exec redshift
         client.urgent: #cbd1cd #1e1e20 #cbd1cd #919893 #919893,
         client.placeholder: #cbd1cd #1e1e20 #cbd1cd #919893 #919893
 exec xinput set-prop 12 290 -1
-exec xinput set-prop 12 144 0.1 0 0 0 0.1 0 0 0 2.8
+exec xinput set-prop 12 144 0.1 0 0 0 0.1 0 0 0 0.7
 exec xset m 0 0
-exec compton -C --config ~/.config/compton.conf &
+exec  compton -C --config ~/.config/compton.conf --blur-method kawase --blur-strength 5
 
 
 
